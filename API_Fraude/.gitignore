@@ -1,0 +1,75 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore logs and databases
+*.log
+logs/
+*.sqlite
+*.db
+
+# Ignore virtual environment
+.venv/
+venv/
+env/
+*.pyc
+
+# Ignore Python build artifacts
+dist/
+build/
+**/*.egg-info/
+
+# Ignore local development files
+*.pyo
+*.pyd
+
+# Ignore test caches
+.nox
+.pytest*
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore compiled binaries
+*.dll
+*.so
+*.dylib
+
+# Ignore pipenv
+Pipfile.lock
+
+# Add data file extensions for data file
+# **/data/
+**/*.sas7bdat
+**/*.csv
+**/*.json
+**/*.xml
+**/*.xlsx
+**/*.xls
+**/*.h5
+**/*.pkl
+# **/*.pickle
+**/*.parquet
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore PyCharm settings
+.idea/
+
+# Keep test csv files
+!tests/resources/*.csv
+
+# Keep template folder
+!demo_vscode/application/templates/*
+
+# Keep test resources folder
+!tests/resources/*
